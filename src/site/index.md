@@ -6,7 +6,7 @@ layout: default
 
 ## Content from an external data source
 
-The lists below showing NBA AllStar starting fives for 2019 were sourced from [a Google Sheet](https://docs.google.com/spreadsheets/d/1CfI6XGm9OjjNKGr3kXRSKVLui_gkHZdadoOPIiNgE9s/edit#gid=0) as [JSON](https://spreadsheets.google.com/feeds/list/1CfI6XGm9OjjNKGr3kXRSKVLui_gkHZdadoOPIiNgE9s/od6/public/values?alt=json) at site build time.
+The lists below showing NBA AllStar starting fives for 2019 were sourced from [a Google Sheet](https://docs.google.com/spreadsheets/d/1KriXplIJ4If3peS_XlEJD2shm6WdPlZOXftJWtcUjYo/edit#gid=0) as [JSON](https://spreadsheets.google.com/feeds/list/1KriXplIJ4If3peS_XlEJD2shm6WdPlZOXftJWtcUjYo/od6/public/values?alt=json) at site build time.
 
 
 ### Eastern Conference All Stars
@@ -26,7 +26,7 @@ The lists below showing NBA AllStar starting fives for 2019 were sourced from [a
 
 
 
-## About this example
+## About
 
 This site is an example of using [Eleventy's JavaScript Data Files](https://www.11ty.io/docs/data-js/) which simplify pulling content from remote data sources and making them available as  objects to be used globally across an Eleventy site.
 
