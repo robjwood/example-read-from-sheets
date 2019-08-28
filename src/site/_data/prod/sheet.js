@@ -2,7 +2,7 @@ const axios  = require('axios');
 const seed   = require('../../../utils/save-seed.js');
 
 
-// Once a googel sheet is "published to the web" we can access its JSON
+// Once a Google sheet is "published to the web" we can access its JSON
 // via a URL of this form. We just need to pass in the ID of the sheet
 // which we can find in the URL of the document. 
 const sheetID = "1KriXplIJ4If3peS_XlEJD2shm6WdPlZOXftJWtcUjYo";
@@ -19,13 +19,14 @@ module.exports = () => {
         // massage the data from the Google Sheets API into
         // a shape that will more convenient for us in our SSG.
         var data = {
-          "East": [],
-          "West": []
+          "Championship": [],
+          "Prem": []
         };
         response.data.feed.entry.forEach(item => {
-          data[item.gsx$conference.$t].push({
+          data[item.gsx$league.$t].push({
             "name": item.gsx$name.$t,
-            "team": item.gsx$team.$t
+            "team": item.gsx$team.$t,
+            "goals": item.gsx$goals.$t
           })
         });
 
