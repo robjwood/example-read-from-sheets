@@ -6,7 +6,7 @@ layout: default
 
 ## Content from an external data source
 
-The lists below showing the top scored in the Premier League and Cahmpionship 2018/2019. They're sourced from [a Google Sheet](https://docs.google.com/spreadsheets/d/1KriXplIJ4If3peS_XlEJD2shm6WdPlZOXftJWtcUjYo/edit#gid=0) as [JSON](https://spreadsheets.google.com/feeds/list/1KriXplIJ4If3peS_XlEJD2shm6WdPlZOXftJWtcUjYo/od6/public/values?alt=json) at site build time.
+The lists below showing the top scorers in the Premier League and Championship for 2018/2019. They're sourced from [a Google Sheet](https://docs.google.com/spreadsheets/d/1KriXplIJ4If3peS_XlEJD2shm6WdPlZOXftJWtcUjYo/edit#gid=0) as [JSON](https://spreadsheets.google.com/feeds/list/1KriXplIJ4If3peS_XlEJD2shm6WdPlZOXftJWtcUjYo/od6/public/values?alt=json) at site build time.
 
 
 ### Premier League Top 5 Scorers
