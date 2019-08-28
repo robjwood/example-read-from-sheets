@@ -10,6 +10,7 @@ The lists below showing NBA AllStar starting fives for 2019 were sourced from [a
 
 
 ### Eastern Conference All Stars
+
 <ul class="listing">
 {%- for item in sheet.East -%}
   <li>{{ item.name }} - {{ item.team }}</li>
@@ -17,6 +18,7 @@ The lists below showing NBA AllStar starting fives for 2019 were sourced from [a
 </ul>
 
 ### Western Conference All Stars
+
 <ul class="listing">
 {%- for item in sheet.West -%}
   <li>{{ item.name }} - {{ item.team }}</li>
@@ -26,7 +28,7 @@ The lists below showing NBA AllStar starting fives for 2019 were sourced from [a
 
 
 
-## About this thingy thing.
+## About this here thing.
 
 This site is an example of using [Eleventy's JavaScript Data Files](https://www.11ty.io/docs/data-js/) which simplify pulling content from remote data sources and making them available as  objects to be used globally across an Eleventy site.
 
