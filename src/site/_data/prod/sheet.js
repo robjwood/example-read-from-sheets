@@ -12,7 +12,6 @@ module.exports = () => {
   return new Promise((resolve, reject) => {
 
     console.log(`Requesting data from ${googleSheetUrl}`);
-
   
     axios.get(googleSheetUrl)
       .then(response => {
